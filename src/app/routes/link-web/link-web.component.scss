@@ -1,0 +1,86 @@
+:root {
+  --main-bg-color: #503E9D;
+  --font-primary: Circular Std;
+}
+
+.page {
+  width: 100vw;
+}
+
+.header {
+  position: absolute; top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 7px 10px;
+  color: white;
+}
+
+.header span {
+  padding: 3px 5px;
+  margin-left: 10px;
+  background: #ffb5f2;
+  border-radius: 5px;
+}
+
+.top-half {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+  color: white;
+  background: linear-gradient(83.94deg, #503E9D 0%, #C5ADD2 100%);
+}
+
+.top-half h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.top-half p {
+  font-size: 25px;
+}
+
+.zone-de-saisie {
+  display: flex;
+}
+
+.top-half input {
+  width: min(300px, 90%);
+  padding: 5px 10px;
+}
+
+.top-half input {
+  width: min(300px, 90%);
+  padding: 5px 10px;
+}
+
+.top-half button {
+  border: none;
+}
+
+.bottom-half {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+}
+
+button {
+  padding: 7px 20px;
+  font-size: 20px;
+  color: #FFF;
+  background: #425F9E;
+  border: 1px solid transparent;
+  transition: .3s;
+}
+
+button:hover {
+  color: #425F9E;
+  background: #FFF;
+  border-color: #425F9E;
+}

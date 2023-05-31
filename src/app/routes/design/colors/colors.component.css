@@ -1,0 +1,208 @@
+:root {
+  --main-bg-color: #503E9D;
+  --font-primary: Circular Std;
+}
+
+.page {
+  display: flex;
+  background: hsl(0 0% 95% / 1);
+}
+.page .contenu {
+  flex-grow: 1;
+}
+
+.contenu {
+  padding: 10px 10px 10px 0;
+}
+
+.box {
+  box-shadow: 0 0 10px #bfbfbffc;
+  border-radius: 10px;
+}
+
+.summuray-titre{
+  margin-top: 20px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.repot-compelet-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.repot-compelet-box > * {
+  flex-grow: 1;
+}
+.repot-compelet-box .repot-compelet{
+  flex-basis: 80%;
+  position: relative;
+  padding: 10px 10px 10px 20px;
+}
+.repot-compelet-box {
+  flex-basis: 80%;
+  min-width: 200px;
+}
+
+.repot-compelet i {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.repot-compelet-text{
+  font-size: 25px;
+  color: #31BA86;
+}
+
+.buttons img {
+  width: 150px;
+}
+
+@media (width < 990px) {
+
+  .buttons {
+    text-align: center;
+    display: flex;
+  }
+
+}
+
+.upgrade-rectangle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  background: #503E9D;
+  color: #fff;
+}
+
+.upgrade-button {
+  background: #fff;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+.amazon-products-titre{
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.space-between {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 20px;
+  padding-block: 10px;
+}
+
+
+.space-between span {
+  color: #788089;
+}
+
+.space-between span.active {
+  color: #34a853;
+}
+
+.space-between span.purple {
+  color: #503E9D;
+}
+
+.input span {
+  margin-right: 10px;
+}
+
+.table-container-h {
+  max-width: calc(100vw - 160px);
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.table-container-h table {
+  min-width: 600px;
+}
+
+table tr td {
+  vertical-align: middle;
+  text-align: center;
+}
+table tr td span{
+  color: white;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 14px
+
+}
+table tr td.red span{
+  background: red;
+}
+
+table tr td.gray span{
+  background: gray;
+}
+
+table tr td.green span{
+  background: green;
+}
+table tr td.blue span{
+  background: darkblue;
+}
+
+.statistics, .statistics > div > div {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.statistics > div {
+  flex-grow: 1;
+}
+
+.statistics .box {
+  flex-grow: 1;
+  background: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.statistics .box .number {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.links-table-container {
+  max-height: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+table.links tr {
+  border-bottom: 1px solid #565656;
+}
+
+table.links tr td {
+  width: 100%;
+  padding: 7px 10px;
+}
+
+table.links tr td:first-child {
+  text-align: start;
+}
+
+table.links tr td:last-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: capitalize;
+  text-align: end;
+}
+
+table.links tr td i {
+  font-size: 10px;
+  color: #34a853;
+}

@@ -1,0 +1,81 @@
+{
+  "menu": [
+    {
+      "route": "sites",
+      "name": "sites",
+      "type": "link",
+      "icon": "lock"
+    },
+    {
+      "route": "https://eysi.net/",
+      "name": "eysi.net",
+      "type": "extTabLink",
+      "icon": "extension",
+      "permissions": {
+        "only": "ADMIN"
+      }
+    },
+    {
+      "route": "dashboard",
+      "name": "dashboard",
+      "type": "link",
+      "icon": "dashboard"
+    },
+    {
+      "route": "design",
+      "name": "Affiliate audit",
+      "type": "sub",
+      "icon": "color_lens",
+      "children": [
+        {
+          "route": "colors",
+          "name": "summury",
+          "type": "link"
+        },
+        {
+          "route": "icons",
+          "name": "issues",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "route": "sites-monitoring",
+      "name": "sites monitoring",
+      "type": "link",
+      "icon": "image"
+    },
+    {
+      "route": "Affiliate-Rank-tracker",
+      "name": "Affiliate Rank tracker",
+      "type": "link",
+      "icon": "lock"
+    },
+    {
+      "route": "custom-link-checkerput",
+      "name": "custom link checker",
+      "type": "link",
+      "icon": "image"
+    },
+
+    {
+      "route": "guides",
+      "name": "watch our guides",
+      "type": "link",
+      "icon": "image"
+    },
+
+    {
+      "route": "Pricing",
+      "name": "Pricing",
+      "type": "link",
+      "icon": "image"
+    },
+    {
+      "route": "help",
+      "name": "Get help",
+      "type": "link",
+      "icon": "image"
+    }
+  ]
+}
